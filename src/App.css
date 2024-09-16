@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li.activePagination {
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.active-button {
+    color: #fc3c1a;
+}
+
+.login {
+    background: url(assets/login.jpeg)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+}
